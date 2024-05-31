@@ -4,5 +4,6 @@
     "Codegeex.SidebarUI.LanguagePreference": "中文",
     "Codegeex.CompletionModel": "CodeGeeX Pro[Beta]",
     "Codegeex.CommitMessageStyle": "ConventionalCommits",
-    "Codegeex.Privacy": true
+    "Codegeex.Privacy": true,
+    "baidu.comate.enableSecurityEnhancement": true
 }
