@@ -1,15 +1,24 @@
+<!--
+ * @Author: wangwei wwdqq7@qq.com
+ * @Date: 2024-05-31 18:01:20
+ * @LastEditors: wangwei wwdqq7@qq.com
+ * @LastEditTime: 2024-05-31 22:12:08
+ * @FilePath: /college-life/src/pages/index/index.vue
+ * @Description: 
+-->
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
+      <text class="title">{{ $t("index.home") }}</text>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const title = ref('Hello')
+import { ref } from "vue";
+const title = ref("Hello");
 </script>
 
 <style>

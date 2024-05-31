@@ -2,12 +2,13 @@
  * @Author: wangwei wwdqq7@qq.com
  * @Date: 2024-05-31 18:01:20
  * @LastEditors: wangwei wwdqq7@qq.com
- * @LastEditTime: 2024-05-31 21:10:21
+ * @LastEditTime: 2024-05-31 22:24:14
  * @FilePath: /college-life/src/App.vue
  * @Description: 编写一个uni-app项目，在启动时延迟6秒后关闭启动页面。
 -->
 <script setup lang="ts">
 import { onLaunch, onShow, onHide } from "@dcloudio/uni-app";
+
 onLaunch(() => {
   console.log("App Launch");
 
@@ -17,7 +18,9 @@ onLaunch(() => {
     clearTimeout(timeout);
 
     // 关闭启动页面
+    // #ifdef APP-PLUS
     plus.navigator.closeSplashscreen();
+    // #endif
   }, 6000);
 });
 onShow(() => {
