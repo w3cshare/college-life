@@ -2,7 +2,7 @@
  * @Author: wangwei wwdqq7@qq.com
  * @Date: 2024-05-31 18:01:20
  * @LastEditors: wangwei wwdqq7@qq.com
- * @LastEditTime: 2024-05-31 22:24:14
+ * @LastEditTime: 2024-06-01 01:12:09
  * @FilePath: /college-life/src/App.vue
  * @Description: 编写一个uni-app项目，在启动时延迟6秒后关闭启动页面。
 -->
@@ -30,4 +30,7 @@ onHide(() => {
   console.log("App Hide");
 });
 </script>
-<style></style>
+<style lang="scss">
+/* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
+@import "@/uni_modules/uview-plus/index.scss";
+</style>
