@@ -2,7 +2,7 @@
  * @Author: wangwei wwdqq7@qq.com
  * @Date: 2024-05-31 18:01:20
  * @LastEditors: wangwei wwdqq7@qq.com
- * @LastEditTime: 2024-06-01 16:54:27
+ * @LastEditTime: 2024-06-01 16:59:34
  * @FilePath: /college-life/src/pages/index/index.vue
  * @Description: 
 -->
@@ -11,26 +11,27 @@
 </template>
 
 <script setup lang="ts">
-// 设置一个定时器，延迟6秒后执行
-const timeout = setTimeout(() => {
-  // 清除定时器
-  clearTimeout(timeout);
+import { onLoad } from "@dcloudio/uni-app";
+import { nextTick } from "vue";
 
-  uni.setNavigationBarTitle({
-    title: "校园生活首页",
+onLoad(() => {
+  nextTick(() => {
+    uni.showTabBar();
+    uni.setNavigationBarTitle({
+      title: "校园生活首页",
+    });
+    uni.setNavigationBarColor({
+      frontColor: "#ffffff",
+      backgroundColor: "#000000",
+    });
+    uni.setTabBarStyle({
+      color: "#ffffff",
+      selectedColor: "#007AFF",
+      backgroundColor: "#000000",
+      borderStyle: "black",
+    });
   });
-  uni.setNavigationBarColor({
-    frontColor: "#ffffff",
-    backgroundColor: "#000000",
-  });
-  uni.setTabBarStyle({
-    color: "#ffffff",
-    selectedColor: "#007AFF",
-    backgroundColor: "#000000",
-    borderStyle: "black",
-  });
-  // uni.hideTabBar()
-}, 6000);
+});
 </script>
 
 <style lang="less"></style>
