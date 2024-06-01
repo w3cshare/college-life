@@ -7,6 +7,10 @@
     // 提示新创建的文件映入 Visual Studio Code plugin that autocompletes filenames.
     "christian-kohler.path-intellisense",
     // (antdesignvue等增强工具)[https://vue-helper.80fight.cn/document/]
-    "shenjiaolong.vue-helper"
+    "shenjiaolong.vue-helper",
+    // Code Translate 是一款纯粹的滑词翻译软件
+    "w88975.code-translate",
+    // 支持在编辑器中 node运行，js运行
+    "formulahendry.code-runner"
   ]
 }
