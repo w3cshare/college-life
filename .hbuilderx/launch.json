@@ -2,14 +2,20 @@
     "version" : "1.0",
     "configurations" : [
         {
-            "default" : {
-                "launchtype" : "local"
-            },
-            "h5" : {
-                "launchtype" : "local"
-            },
-            "provider" : "aliyun",
-            "type" : "uniCloud"
+        	"app-plus" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"default" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"h5" : 
+        	{
+        		"launchtype" : "local"
+        	},
+        	"provider" : "aliyun",
+        	"type" : "uniCloud"
         }
     ]
 }
