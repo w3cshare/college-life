@@ -2,7 +2,7 @@
  * @Author: wangwei wwdqq7@qq.com
  * @Date: 2024-05-31 18:01:20
  * @LastEditors: wangwei wwdqq7@qq.com
- * @LastEditTime: 2024-06-01 16:59:34
+ * @LastEditTime: 2024-06-01 23:01:05
  * @FilePath: /college-life/src/pages/index/index.vue
  * @Description: 
 -->
@@ -26,7 +26,7 @@ onLoad(() => {
     });
     uni.setTabBarStyle({
       color: "#ffffff",
-      selectedColor: "#007AFF",
+      selectedColor: "#007aff",
       backgroundColor: "#000000",
       borderStyle: "black",
     });
@@ -34,4 +34,4 @@ onLoad(() => {
 });
 </script>
 
-<style lang="less"></style>
+<style lang="scss"></style>
