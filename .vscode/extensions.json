@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // 根据 vue文件的模板template中的 class，自动对用到 style中的 class 生成定位
+    "pucelle.vscode-css-navigation",
+    // 根据 vue文件的模板template结构，自动生成对应的 scss文件
+    "kq.autoscssstruct4vue",
+    // 提示新创建的文件映入 Visual Studio Code plugin that autocompletes filenames.
+    "christian-kohler.path-intellisense",
+    // (antdesignvue等增强工具)[https://vue-helper.80fight.cn/document/]
+    "shenjiaolong.vue-helper"
+  ]
+}
