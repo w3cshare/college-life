@@ -9,11 +9,11 @@
 import { createSSRApp } from "vue";
 import { createI18n } from 'vue-i18n'
 import App from "./App.vue";
-import messages from './locale/index'
+import messages from '@/locale/index'
 import uViewPlus from '@/uni_modules/uview-plus'
 
 const i18nConfig = {
-  locale: uni.getLocale(),
+  locale: uni.getLocale(),    
   messages
 }
 
