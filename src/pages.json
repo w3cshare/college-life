@@ -25,6 +25,62 @@
       "style": {
         "navigationBarTitleText": "默认"
       }
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/splash/splash",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "启动页/待机"
+    	}
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/home/home",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "首页"
+    	}
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/analysis/analysis",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "微笑识别"
+    	}
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/result/result",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "微笑识别结果（成功或失败）"
+    	}
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/result/fail/fail",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "微笑识别失败"
+    	}
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/result/success/success",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "微笑识别成功"
+    	}
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/out-gift/out-gift",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "下发给礼品"
+    	}
+    },
+    {
+    	"path" : "pages/my/smart-egg-robot/poster/poster",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "微笑识别海报"
+    	}
     }
   ],
   "condition": {

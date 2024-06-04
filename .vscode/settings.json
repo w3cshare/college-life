@@ -1,9 +1,14 @@
 {
-    "Codegeex.Chat.LanguagePreference": "中文",
-    "Codegeex.Comment.LanguagePreference": "中文",
-    "Codegeex.SidebarUI.LanguagePreference": "中文",
-    "Codegeex.CompletionModel": "CodeGeeX Pro[Beta]",
-    "Codegeex.CommitMessageStyle": "ConventionalCommits",
-    "Codegeex.Privacy": true,
-    "baidu.comate.enableSecurityEnhancement": true
+  "Codegeex.Chat.LanguagePreference": "中文",
+  "Codegeex.Comment.LanguagePreference": "中文",
+  "Codegeex.SidebarUI.LanguagePreference": "中文",
+  "Codegeex.CompletionModel": "CodeGeeX Pro[Beta]",
+  "Codegeex.CommitMessageStyle": "ConventionalCommits",
+  "Codegeex.Privacy": true,
+  "baidu.comate.enableSecurityEnhancement": true,
+
+  // vscode 配置
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}"
+  }
 }
